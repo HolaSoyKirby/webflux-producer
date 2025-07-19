@@ -17,3 +17,7 @@ curl --request POST \
 "customerId": 1,
 "productIds": [1, 2]
 }'
+
+Si se desea ejecutar el consumer de dichos eventos se debe descargar y ejecutar el siguiente proyecto
+
+https://github.com/HolaSoyKirby/webflux-consumer
