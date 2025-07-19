@@ -1,4 +1,6 @@
-Proyecto el cual tiene como un endpoint que sirve de base como producer para generar nuevos eventos en apache kafka
+# Producer de Kafka
+
+### Proyecto el cual tiene como un endpoint que sirve de base como producer para generar nuevos eventos en apache kafka
 
 Para ejecutar el proyecto localmente se necesita tener instalado y corriendo el servicio de kafka (de ser necesario cambiar las propiedades en el application.yml)
 
@@ -18,6 +20,5 @@ curl --request POST \
 "productIds": [1, 2]
 }'
 
-Si se desea ejecutar el consumer de dichos eventos se debe descargar y ejecutar el siguiente proyecto
-
-https://github.com/HolaSoyKirby/webflux-consumer
+### Si se desea ejecutar el consumer de dichos eventos se debe descargar y ejecutar el siguiente proyecto
+* https://github.com/HolaSoyKirby/webflux-consumer
